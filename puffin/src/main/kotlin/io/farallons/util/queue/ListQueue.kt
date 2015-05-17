@@ -29,10 +29,15 @@ private class ListQueue<Item> : AbstractQueue<Item>() {
     }
 
     override fun dequeue(): Queue<Item> {
-        val newFrontNode = frontNode?.next
-        frontNode?.item = null
-        frontNode = newFrontNode
-        listSize--
+        if (!empty()) {
+            val newFrontNode = frontNode?.next
+            frontNode?.item = null
+            frontNode = newFrontNode
+            listSize--
+            if (frontNode == null) {
+                backNode = null
+            }
+        }
         return this
     }
 
