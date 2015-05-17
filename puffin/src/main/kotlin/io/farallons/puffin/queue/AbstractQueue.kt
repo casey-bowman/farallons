@@ -1,4 +1,4 @@
-package io.farallons.util.queue
+package io.farallons.puffin.queue
 
 abstract class AbstractQueue<Item> : Queue<Item> {
 

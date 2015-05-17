@@ -1,4 +1,4 @@
-package io.farallons.util.bag
+package io.farallons.puffin.bag
 
 /**
  * Bag with command-query separation and uniform access

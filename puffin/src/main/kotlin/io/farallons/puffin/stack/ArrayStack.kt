@@ -1,4 +1,4 @@
-package io.farallons.util.stack
+package io.farallons.puffin.stack
 
 
 private class ArrayStack<Item>() : AbstractStack<Item>() {

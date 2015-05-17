@@ -1,4 +1,4 @@
-package io.farallons.util.sample
+package io.farallons.puffin.sample
 
 public class SubSample(val st1: String, val st2:String) : Sample(st1) {
 

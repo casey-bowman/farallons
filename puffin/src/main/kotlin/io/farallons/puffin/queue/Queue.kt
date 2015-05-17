@@ -1,4 +1,4 @@
-package io.farallons.util.queue
+package io.farallons.puffin.queue
 
 public trait Queue<Item> : Iterable<Item>{
 

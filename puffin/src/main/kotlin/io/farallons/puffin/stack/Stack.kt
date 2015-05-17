@@ -1,4 +1,4 @@
-package io.farallons.util.stack
+package io.farallons.puffin.stack
 
 /**
  * Stack with command-query separation and uniform access

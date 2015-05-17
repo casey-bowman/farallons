@@ -1,6 +1,6 @@
-package io.farallons.util.stack
+package io.farallons.puffin.stack
 
-import io.farallons.util.node.ListNode
+import io.farallons.puffin.node.ListNode
 
 private class ListStack<Item>() : AbstractStack<Item>() {
 

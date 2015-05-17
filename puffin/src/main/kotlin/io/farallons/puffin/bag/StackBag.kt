@@ -1,7 +1,7 @@
-package io.farallons.util.bag
+package io.farallons.puffin.bag
 
 
-import io.farallons.util.stack.Stack
+import io.farallons.puffin.stack.Stack
 
 private class StackBag<Item>(val stack: Stack<Item>) : AbstractBag<Item>() {
 

@@ -1,9 +1,9 @@
-package io.farallons.util
+package io.farallons.puffin
 
-import io.farallons.util.bag.Bag
-import io.farallons.util.bag.BagFactory
-import io.farallons.util.sample.Sample
-import io.farallons.util.sample.SubSample
+import io.farallons.puffin.bag.Bag
+import io.farallons.puffin.bag.BagFactory
+import io.farallons.puffin.sample.Sample
+import io.farallons.puffin.sample.SubSample
 import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Stepwise

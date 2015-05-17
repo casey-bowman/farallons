@@ -1,6 +1,6 @@
-package io.farallons.util.queue
+package io.farallons.puffin.queue
 
-import io.farallons.util.node.ListNode
+import io.farallons.puffin.node.ListNode
 
 private class ListQueue<Item> : AbstractQueue<Item>() {
 

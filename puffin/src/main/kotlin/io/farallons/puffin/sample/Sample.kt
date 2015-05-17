@@ -1,4 +1,4 @@
-package io.farallons.util.sample
+package io.farallons.puffin.sample
 
 public open class Sample(val st: String) {
 

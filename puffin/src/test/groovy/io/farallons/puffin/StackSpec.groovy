@@ -1,7 +1,7 @@
-package io.farallons.util
+package io.farallons.puffin
 
-import io.farallons.util.stack.StackFactory
-import io.farallons.util.stack.Stack
+import io.farallons.puffin.stack.Stack
+import io.farallons.puffin.stack.StackFactory
 import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Stepwise

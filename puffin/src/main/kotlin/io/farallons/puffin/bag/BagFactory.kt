@@ -1,6 +1,6 @@
-package io.farallons.util.bag
+package io.farallons.puffin.bag
 
-import io.farallons.util.stack.StackFactory
+import io.farallons.puffin.stack.StackFactory
 import kotlin.platform.platformStatic
 
 /**

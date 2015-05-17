@@ -1,7 +1,7 @@
-package io.farallons.util
+package io.farallons.puffin
 
-import io.farallons.util.queue.QueueFactory
-import io.farallons.util.queue.Queue
+import io.farallons.puffin.queue.Queue
+import io.farallons.puffin.queue.QueueFactory
 import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Stepwise
