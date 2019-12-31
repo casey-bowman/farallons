@@ -2,7 +2,7 @@ package io.farallons.puffin.queue
 
 import io.farallons.puffin.node.ListNode
 
-private class ListQueue<Item> : AbstractQueue<Item>() {
+internal class ListQueue<Item> : AbstractQueue<Item>() {
 
     private var backNode : ListNode<Item>? = null
     private var frontNode : ListNode<Item>? = null
@@ -31,7 +31,6 @@ private class ListQueue<Item> : AbstractQueue<Item>() {
     override fun dequeue(): Queue<Item> {
         if (!empty()) {
             val newFrontNode = frontNode?.next
-            frontNode?.item = null
             frontNode = newFrontNode
             listSize--
             if (frontNode == null) {

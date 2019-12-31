@@ -1,12 +1,11 @@
 # Ant
 ant/
 
-# Gradle
-.gradle/
-build/
-
-# Maven
-target/
+# Bazel
+bazel-farallons-kotlin/
+bazel-bin/
+bazel-out/
+bazel-testlogs/
 
 # Eclipse
 .classpath
@@ -20,3 +19,5 @@ bin/
 *.iml
 out/
 .idea/
+
+

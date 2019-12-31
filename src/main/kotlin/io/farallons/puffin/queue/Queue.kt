@@ -1,6 +1,6 @@
 package io.farallons.puffin.queue
 
-public trait Queue<Item> : Iterable<Item>{
+public interface Queue<Item> : Iterable<Item>{
 
     public fun enqueue(item: Item) : Queue<Item>
 

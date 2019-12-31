@@ -3,7 +3,7 @@ package io.farallons.puffin.stack
 /**
  * Stack with command-query separation and uniform access
  */
-public trait Stack<Item> : Iterable<Item>{
+public interface Stack<Item> : Iterable<Item>{
 
     public fun pop() : Stack<Item>
 

@@ -2,7 +2,7 @@ package io.farallons.puffin.stack
 
 import io.farallons.puffin.node.ListNode
 
-private class ListStack<Item>() : AbstractStack<Item>() {
+internal class ListStack<Item>() : AbstractStack<Item>() {
 
     private var node : ListNode<Item>? = null
 

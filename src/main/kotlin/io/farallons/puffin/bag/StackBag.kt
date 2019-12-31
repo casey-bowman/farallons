@@ -3,7 +3,7 @@ package io.farallons.puffin.bag
 
 import io.farallons.puffin.stack.Stack
 
-private class StackBag<Item>(val stack: Stack<Item>) : AbstractBag<Item>() {
+internal class StackBag<Item>(val stack: Stack<Item>) : AbstractBag<Item>() {
 
     override fun add(item: Item): Bag<Item> {
         stack.push(item)

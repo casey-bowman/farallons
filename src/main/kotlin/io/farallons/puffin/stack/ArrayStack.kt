@@ -1,9 +1,10 @@
 package io.farallons.puffin.stack
 
+@Suppress("UNCHECKED_CAST")
+internal class ArrayStack<Item>() : AbstractStack<Item>() {
 
-private class ArrayStack<Item>() : AbstractStack<Item>() {
 
-    var array : Array<Item?> = arrayOfNulls<Any>(1) as Array<Item?>
+    var array : Array<Item?> = arrayOfNulls<Any?>(1) as Array<Item?>
 
     var stackSize : Int = 0
     var arraySize : Int = 1
