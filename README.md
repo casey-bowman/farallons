@@ -17,10 +17,13 @@ To build and test, use Bazel
       
 - Go to the project root folder
        
-- Build
+- Build 
 
       bazel build ...
+
       
 - Test
 
       bazel test ...
+      
+- In the bazel-bin folder, look for _puffin.jar_
