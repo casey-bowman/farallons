@@ -1,13 +1,17 @@
-# farallons
+# farallons-puffin
 A Kotlin library featuring
 * pure algorithms and the idea of small interfaces as taught by Robert Sedgwick (Princeton University) 
 * command-query separation and uniform access as taught by Bertrand Meyer (ETH Zurich)
 
+Puffin includes Queue, Stack, and Bag factories
+
+Tested with Spock
+
 ---
 
-To build and test, use Bazel
+Use Bazel
 
-- Install Bazel
+- Install Bazel (instructions here for Ubuntu 19.10)
 
       curl https://bazel.build/bazel-release.pub.gpg >> bazel-release.pub.gpg
       sudo apt-key add bazel-release.pub.gpg
@@ -21,7 +25,6 @@ To build and test, use Bazel
 
       bazel build ...
 
-      
 - Test
 
       bazel test ...
